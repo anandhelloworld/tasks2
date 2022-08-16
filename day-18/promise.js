@@ -8,7 +8,7 @@ fetch("https://restcountries.com/v3.1/all")
   });
 
 function createcard(data) {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 4; i++) {
     let appid = `33595ee7c5852f69ba0dbb8b0e329dd8`;
     let flag = data[i].flags.svg;
     let name = data[i].name.official;
